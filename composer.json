@@ -1,0 +1,23 @@
+{
+    "name": "taskforcedev/teamspeak",
+    "description": "Laravel Teamspeak module, provides controller, routes and publishable views.",
+    "authors": [
+        {
+            "name": "taskforcedev",
+            "email": "taskforce2eu@gmail.com"
+        }
+    ],
+    "license": "GPL-3.0+",
+    "keywords": ["teamspeak", "TS3", "routes", "views", "laravel"],
+    "require": {
+        "php": ">=5.5.0",
+        "laravel/framework": "5.*",
+        "taskforcedev/laravel-support": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Taskforcedev\\Teamspeak\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
